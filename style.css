@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(14, 17, 17);
+}
+
+body:nth-child(n+1) {
+    letter-spacing: .15vw;
+}
+
+h1 {
+    color: whitesmoke;
+    margin: 1rem 0;
+    font-size: 2vw;
+}
+
+h1#count {
+    font-size: 4rem;
+}
+
+p {
+    margin-top: 10vw;
+    color: whitesmoke;
+    font-weight: lighter;
+}
